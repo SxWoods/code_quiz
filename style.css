@@ -1,0 +1,87 @@
+
+html {
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+	background-color: #7636b3;
+}
+
+header {
+    text-align: right;
+    color: antiquewhite;
+}
+
+h1 {
+	display: inline-block;
+    color: antiquewhite;
+}
+
+h2 {
+	font-size: 5em;
+	text-align: center;
+	margin-top: 30px;
+    color: antiquewhite;
+}
+p {
+	text-align: center;
+	font-size: 1em;
+	padding: 30px;
+    color:antiquewhite;
+}
+
+/* Start & Reset */
+.nav-btn {
+	flex-direction: column;
+	text-align: right;
+	margin: 30px;
+}
+
+/* Button Styling */
+
+.rs-btn {
+	padding: 5px;
+	justify-content: center;
+	color: antiquewhite;
+	font-size: 1.25em;
+	cursor: pointer;
+	background-color: #123c69;
+	border-color: #999999;
+}
+
+.answerContainer {
+	margin: 40px;
+	text-align: center;
+}
+
+.answer-btn {
+	padding: 5px;
+	color: #bab2b5;
+	font-size: 1.25em;
+	cursor: pointer;
+	background-color: #123c69;
+	border-color: #999999;
+	justify-content: center;
+	align-items: center;
+}
+
+#scoreInput {
+	display: none;
+	text-align: center;
+}
+
+#a1 {
+	display: none;
+}
+
+#a2 {
+	display: none;
+}
+
+#a3 {
+	display: none;
+}
+
+#a4 {
+	display: none;
+}
